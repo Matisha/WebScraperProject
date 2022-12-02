@@ -17,6 +17,14 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+##### Data Storage Class for space between JSON and Scraping ######
+
+class StatsByCountry:
+    def __init__(self, countryName, dailyDeathsByYear, dailyCumulativeDeaths):
+        self.countryName = countryName
+        self.dailyDeathsByYear = dailyDeathsByYear
+        self.dailyCumulativeDeaths = dailyCumulativeDeaths
+        
 ##### URLS for statistic servers ######
 
 def getCountryStats (url, country) :
