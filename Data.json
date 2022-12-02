@@ -1,0 +1,44 @@
+{
+    "countries": [
+        {
+            "name": "canada",
+            "cases": 4408276,
+            "deaths": 4408276
+        },
+        {
+            "name": "mexico",
+            "cases": 7132792,
+            "deaths": 7132792
+        },
+        {
+            "name": "switzerland",
+            "cases": 4317035,
+            "deaths": 4317035
+        },
+        {
+            "name": "germany",
+            "cases": 36499600,
+            "deaths": 36499600
+        },
+        {
+            "name": "austria",
+            "cases": 5566947,
+            "deaths": 5566947
+        },
+        {
+            "name": "france",
+            "cases": 37916052,
+            "deaths": 37916052
+        },
+        {
+            "name": "spain",
+            "cases": 13595504,
+            "deaths": 13595504
+        },
+        {
+            "name": "italy",
+            "cases": 24260660,
+            "deaths": 24260660
+        }
+    ]
+}

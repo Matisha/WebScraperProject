@@ -35,3 +35,7 @@ data_Cases_P     = tag_mainContent.findChild('h1', text='Coronavirus Cases:').pa
 data_Cases     = data_Cases_P.findChild('div', attrs={'class' : 'maincounter-number'}).findChild('span')
 
 print("Cases:     " + data_Cases.text + "\n")
+
+def getCountryStats (url, country) :
+    url1 = "url" + country #  Worldometer Coronavirus Tracker
+    
