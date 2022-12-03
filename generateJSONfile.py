@@ -25,9 +25,11 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import DemoCountryGetter as dcg
+from datetime import datetime
 
-countryList = ["canada", "mexico", "switzerland", "germany", "austria", "france", "spain", "italy"]
-demoURL = "https://www.worldometers.info/coronavirus/country/"
+# Add any counties you want to this list!!
+countryList = ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
+demoURL = "https://www.worldometers.info/coronavirus/"
 
 def generateJSONfile (url) :
 
@@ -36,13 +38,17 @@ def generateJSONfile (url) :
         
         # Get the country data using external function, then format data into a dictionary
         # CURRENT DICTIONARY IS TEMPORARY, SHOULD MIRROR COMMON FORMAT ABOVE, NOT CURRENT FORMAT BELOW (CURERNT FORMAT JUST FOR TESTING)
-        rawDataArray = dcg.getCountryStats(url, country)
-        dictToAdd = {"name" : str(country), "cases" : rawDataArray[0], "deaths" : rawDataArray[1]}
+        rawData = dcg.scrape_country(demoURL, country)
+        dictToAdd = {"name" : str(country), "dailyDeaths" : rawData.dailyDeaths, "totalDeaths" : rawData.totalDeaths, "dailyDeathsNorm" : rawData.dailyDeathsNorm, "totalDeathsNorm" : rawData.totalDeathsNorm}
         masterDict["countries"].append(dictToAdd)
     
+    # Generate filename:
+    date = datetime.now().strftime("%m-%d-%Y")
+    fileName = "CovidData-" + date + ".json"
+
     # Finally, dump objects into JSON file:
     json_object = json.dumps(masterDict, indent = 4)
-    with open("Data.json", "w") as outfile :
+    with open(fileName, "w") as outfile :
         outfile.write(json_object)
 
 generateJSONfile(demoURL)
