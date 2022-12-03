@@ -21,11 +21,11 @@ import re
 
 class StatsByCountry:
     def __init__(self, countryName, dailyDeaths, totalDeaths, dailyDeathsNorm, totalDeathsNorm):
-        self.countryName = countryName
-        self.dailyDeaths = dailyDeaths
-        self.totalDeaths = totalDeaths
-        self.dailyDeathsNorm = dailyDeathsNorm
-        self.totalDeathsNorm = totalDeathsNorm
+            self.countryName = countryName
+            self.dailyDeaths = dailyDeaths
+            self.totalDeaths = totalDeaths
+            self.dailyDeathsNorm = dailyDeathsNorm
+            self.totalDeathsNorm = totalDeathsNorm
 
 def scrape_country(url, country) :
     # Request and soupify country
@@ -123,7 +123,7 @@ def scrape_country(url, country) :
     #         dailyDeathsData[i] = int(dailyDeathsData[i])
 
     #return StatsByCountry(country, [dailyDeathsData, datesForDailyDeaths], [totalDeathsData, datesForTotalDeaths])
-    
+
     #### This will probably be useful for detecting availiable countries and looping through all... Later though. ####
     #print((dataCollection[3]))
     #results = soup.find(id='main_table_countries_today')
@@ -136,4 +136,4 @@ def scrape_country(url, country) :
     #        #print(data.text.strip())
     #        pass
 
-# x = scrape_country('https://www.worldometers.info/coronavirus/', 'S. Korea')
+x = scrape_country('https://www.worldometers.info/coronavirus/', 'us')
