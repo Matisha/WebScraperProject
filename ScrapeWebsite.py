@@ -27,13 +27,17 @@ class StatsByCountry:
             self.dailyDeathsNorm = dailyDeathsNorm
             self.totalDeathsNorm = totalDeathsNorm
 
-def scrape_country(url, country) :
+# Use main_table_countries_today, main_table_countries_yesterday, main_table_countries_yesterday2 for targetDay
+def scrape_country(url, country, targetDay="main_table_countries_today") :
     # Request and soupify country
     htmlPage = requests.get(url).content
     soup = BeautifulSoup(htmlPage, 'html.parser')
 
+    # Select the day...
+    totalTable = soup.find('table', id=targetDay)
+
     # Get the table row the country is in:
-    countryRow = soup.find('a', text=country).parent.parent
+    countryRow = totalTable.find('a', text=country).parent.parent
 
     
     dailyDeathsElement     = countryRow.select_one(":nth-child(6)").text # Get the daily death rates (6th row)
@@ -136,4 +140,4 @@ def scrape_country(url, country) :
     #        #print(data.text.strip())
     #        pass
 
-x = scrape_country('https://www.worldometers.info/coronavirus/', 'us')
+x = scrape_country('https://www.worldometers.info/coronavirus/', 'USA')
