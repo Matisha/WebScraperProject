@@ -7,10 +7,18 @@
 # - Mathias Schoen             #
 ################################
 
-##### TO DO LIST: ######
-# - This is only a demo, these need to be broken up into function(s) that return proper data
-# - Nothing handles errors yet, this needs to be implemented
-# - This file should be able to be imported into the main file. Right now it just does the bare minimum
+#################################
+#    JSON GENERATOR FUNCTION   #
+# - - - - - - - - - - - - - - -#
+#        COMMON FORMAT:        #
+# "country" : {                #
+#   "name" : "<name of country>"
+#   "dailyDeathRaw"    : ""    #
+#   "totDeathRateRaw"  : ""    #
+#   "dailyDeathNorm"   : ""    #
+#   "totDeathRateNorm" : ""    #
+# }                            #
+################################
 
 ###### Import Statements ######
 from bs4 import BeautifulSoup
@@ -18,7 +26,6 @@ import requests
 import re
 
 ##### Data Storage Class for space between JSON and Scraping ######
-
 class StatsByCountry:
     def __init__(self, countryName, dailyDeaths, totalDeaths, dailyDeathsNorm, totalDeathsNorm):
             self.countryName = countryName
@@ -140,4 +147,4 @@ def scrape_country(url, country, targetDay="main_table_countries_today") :
     #        #print(data.text.strip())
     #        pass
 
-x = scrape_country('https://www.worldometers.info/coronavirus/', 'USA')
+# x = scrape_country('https://www.worldometers.info/coronavirus/', 'USA')

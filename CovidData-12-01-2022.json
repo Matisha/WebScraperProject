@@ -1,0 +1,39 @@
+{
+    "countries": [
+        {
+            "name": "Australia",
+            "dailyDeaths": 16,
+            "totalDeaths": 16187,
+            "dailyDeathsNorm": 0.6138259096806079,
+            "totalDeathsNorm": 621
+        },
+        {
+            "name": "UK",
+            "dailyDeaths": 61,
+            "totalDeaths": 197253,
+            "dailyDeathsNorm": 0.890632842086052,
+            "totalDeathsNorm": 2880
+        },
+        {
+            "name": "Switzerland",
+            "dailyDeaths": 0,
+            "totalDeaths": 14318,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1632
+        },
+        {
+            "name": "S. Korea",
+            "dailyDeaths": 62,
+            "totalDeaths": 30568,
+            "dailyDeathsNorm": 1.208845851871238,
+            "totalDeathsNorm": 596
+        },
+        {
+            "name": "Czechia",
+            "dailyDeaths": 7,
+            "totalDeaths": 41894,
+            "dailyDeathsNorm": 0.6519788036473004,
+            "totalDeathsNorm": 3902
+        }
+    ]
+}
