@@ -18,7 +18,7 @@ countryList = ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
 # TODAY            -->  main_table_countries_today
 # YESTERDAY        -->  main_table_countries_yesterday
 # BEFORE YESTERDAY -->  main_table_countries_yesterday2
-chooseDay = "main_table_countries_today"
+chooseDay = "main_table_countries_yesterday3"
 ###################################################################################
 ###################################################################################
 
@@ -51,9 +51,12 @@ def generateJSONfile (url, targetDay=chooseDay) :
     # Generate filename with date:
     tday = datetime.now()   # Get today's date
     # Account for if the user is peaking into the past
-    if (targetDay == "main_table_countries_yesterday")  : day = tday - timedelta(days=1)
-    if (targetDay == "main_table_countries_yesterday2") : day = tday - timedelta(days=2)
+    if (targetDay == "main_table_countries_yesterday1")  : day = tday - timedelta(days=1)
+    
+    elif (targetDay == "main_table_countries_yesterday2") : day = tday - timedelta(days=2)
+
     else : day = tday
+    
     # Format date and convert to filename string
     date = datetime.strftime(day, "%m-%d-%Y")
     fileName = "CovidData-" + date + ".json"
