@@ -10,8 +10,9 @@ import ScrapeWebsite as SW
 from datetime import datetime, timedelta
 import numpy as np
 
-countryList = ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
+countryList = SW.get_countries() # ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
 
+############################  DAILY DEATH COUNTER #################################
 with open('CovidData-12-09-2022.json') as json_file9:
     data9 = json.load(json_file9)
 with open('CovidData-12-08-2022.json') as json_file8:
@@ -46,10 +47,13 @@ p.vbar(x='x', top='counts', width=0.9, source=source, line_color="white",fill_co
 p.y_range.start = 0
 p.x_range.range_padding = 0.1
 p.xaxis.major_label_orientation = 1
+
+# pGrid make it consistent with theme
 p.xgrid.grid_line_color = None
+p.text_color = "#ffffff"
+p.background_fill_color = "#2d2d2d"
 
 show(p)
-
 
 """
 # create a new plot with a title and axis labels

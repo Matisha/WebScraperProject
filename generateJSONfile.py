@@ -7,21 +7,6 @@
 # - Mathias Schoen              #
 #################################
 
-###################################################################################
-######### COUNTRY LIST ############################################################
-## Please add any desired countries to scrape to this list. Capitalization matters!
-countryList = ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
-###################################################################################
-######### DATE TO PULL ############################################################
-# Here, you can select what day you'd like to pull data from, incase you'd like to
-# peak into the past!
-# TODAY            -->  main_table_countries_today
-# YESTERDAY        -->  main_table_countries_yesterday
-# BEFORE YESTERDAY -->  main_table_countries_yesterday2
-chooseDay = "main_table_countries_yesterday3"
-###################################################################################
-###################################################################################
-
 # Imports
 from bs4 import BeautifulSoup
 import requests
@@ -29,36 +14,46 @@ import json
 import ScrapeWebsite as SW
 from datetime import datetime, timedelta
 
+###################################################################################
+######### DATE TO PULL ############################################################
+# Here, you can select what day you'd like to pull data from, incase you'd like to
+# peak into the past!
+# TODAY            -->  main_table_countries_today
+# YESTERDAY        -->  main_table_countries_yesterday
+# BEFORE YESTERDAY -->  main_table_countries_yesterday2
+chooseDay = "main_table_countries_today"
+###################################################################################
+######### COUNTRY LIST ############################################################
+## Please add any desired countries to scrape to this list. Capitalization matters!
+countryList = SW.get_countries(targetDay=chooseDay) # ["Australia", "UK", "Switzerland", "S. Korea", "Czechia"]
+###################################################################################
+
 # URL Used for scraping
 demoURL = "https://www.worldometers.info/coronavirus/"
 
 # Use main_table_countries_today, main_table_countries_yesterday, main_table_countries_yesterday2 for targetDay
-def generateJSONfile (url, targetDay=chooseDay) :
+def generateJSONfile (url=demoURL, targetDay=chooseDay) :
 
     # Initialize master dictionary that will eventually be converted to JSON file
-    masterDict = {"countries" : []}
+    masterDict = {}
 
     ####################################################################
     # Loop thru every county in the list and scrape for statistics using scrape_country function:
-    for country in countryList :
-        # Get the country data using external function, then format data into a dictionary
-        rawData = SW.scrape_country(url, country, targetDay)
-        # Add to dictionary
-        dictToAdd = {"name" : str(country), "dailyDeaths" : rawData.dailyDeaths, "totalDeaths" : rawData.totalDeaths, "dailyDeathsNorm" : rawData.dailyDeathsNorm, "totalDeathsNorm" : rawData.totalDeathsNorm}
-        masterDict["countries"].append(dictToAdd)
+    rawData = SW.scrape_country(url, countryList, targetDay)
+    for country in rawData:
+        subDict = {"dailyDeaths" : country.dailyDeaths, "totalDeaths" : country.totalDeaths, "dailyDeathsNorm" : country.dailyDeathsNorm, "totalDeathsNorm" : country.totalDeathsNorm}
+        masterDict[str(country.countryName)] = subDict
     
     #############################################################
     # Generate filename with date:
     tday = datetime.now()   # Get today's date
     # Account for if the user is peaking into the past
-    if (targetDay == "main_table_countries_yesterday1")  : day = tday - timedelta(days=1)
-    
+    if (targetDay == "main_table_countries_yesterday")  : day = tday - timedelta(days=1)
     elif (targetDay == "main_table_countries_yesterday2") : day = tday - timedelta(days=2)
-
     else : day = tday
     
     # Format date and convert to filename string
-    date = datetime.strftime(day, "%m-%d-%Y")
+    date = datetime.strftime(day, "%Y-%m-%d")
     fileName = "CovidData-" + date + ".json"
 
     #############################################################
@@ -67,4 +62,7 @@ def generateJSONfile (url, targetDay=chooseDay) :
     with open(fileName, "w") as outfile :
         outfile.write(json_object)
 
-generateJSONfile(demoURL)
+#generateJSONfile()
+
+for i in ["main_table_countries_today", "main_table_countries_yesterday","main_table_countries_yesterday2"]:
+    generateJSONfile(targetDay=i)
