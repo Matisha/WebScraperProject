@@ -38,4 +38,3 @@ print("Cases:     " + data_Cases.text + "\n")
 
 def getCountryStats (url, country) :
     url1 = "url" + country #  Worldometer Coronavirus Tracker
-    
