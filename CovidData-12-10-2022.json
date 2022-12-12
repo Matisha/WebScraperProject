@@ -1,0 +1,774 @@
+{
+    "countries": [
+        {
+            "name": "USA",
+            "dailyDeaths": 0,
+            "totalDeaths": 1109679,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3314
+        },
+        {
+            "name": "India",
+            "dailyDeaths": 0,
+            "totalDeaths": 530654,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 377
+        },
+        {
+            "name": "France",
+            "dailyDeaths": 0,
+            "totalDeaths": 159611,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2434
+        },
+        {
+            "name": "Germany",
+            "dailyDeaths": 0,
+            "totalDeaths": 158966,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1895
+        },
+        {
+            "name": "Brazil",
+            "dailyDeaths": 0,
+            "totalDeaths": 690837,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3208
+        },
+        {
+            "name": "S. Korea",
+            "dailyDeaths": 54,
+            "totalDeaths": 31029,
+            "dailyDeathsNorm": 1.0528860098617423,
+            "totalDeathsNorm": 605
+        },
+        {
+            "name": "Japan",
+            "dailyDeaths": 0,
+            "totalDeaths": 51290,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 408
+        },
+        {
+            "name": "Italy",
+            "dailyDeaths": 0,
+            "totalDeaths": 182419,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3027
+        },
+        {
+            "name": "UK",
+            "dailyDeaths": 0,
+            "totalDeaths": 197723,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2887
+        },
+        {
+            "name": "Russia",
+            "dailyDeaths": 0,
+            "totalDeaths": 392506,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2692
+        },
+        {
+            "name": "Turkey",
+            "dailyDeaths": 0,
+            "totalDeaths": 101400,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1185
+        },
+        {
+            "name": "Spain",
+            "dailyDeaths": 0,
+            "totalDeaths": 116422,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2492
+        },
+        {
+            "name": "Vietnam",
+            "dailyDeaths": 0,
+            "totalDeaths": 43178,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 436
+        },
+        {
+            "name": "Australia",
+            "dailyDeaths": 21,
+            "totalDeaths": 16462,
+            "dailyDeathsNorm": 0.8049447211760418,
+            "totalDeathsNorm": 631
+        },
+        {
+            "name": "Argentina",
+            "dailyDeaths": 0,
+            "totalDeaths": 130034,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2826
+        },
+        {
+            "name": "Netherlands",
+            "dailyDeaths": 0,
+            "totalDeaths": 22936,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1333
+        },
+        {
+            "name": "Taiwan",
+            "dailyDeaths": 24,
+            "totalDeaths": 14641,
+            "dailyDeathsNorm": 1.004849395533092,
+            "totalDeathsNorm": 613
+        },
+        {
+            "name": "Iran",
+            "dailyDeaths": 0,
+            "totalDeaths": 144652,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1682
+        },
+        {
+            "name": "Mexico",
+            "dailyDeaths": 0,
+            "totalDeaths": 330667,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2513
+        },
+        {
+            "name": "Indonesia",
+            "dailyDeaths": 0,
+            "totalDeaths": 160175,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 574
+        },
+        {
+            "name": "Poland",
+            "dailyDeaths": 0,
+            "totalDeaths": 118371,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3137
+        },
+        {
+            "name": "Colombia",
+            "dailyDeaths": 0,
+            "totalDeaths": 141943,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2755
+        },
+        {
+            "name": "Austria",
+            "dailyDeaths": 0,
+            "totalDeaths": 21257,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2345
+        },
+        {
+            "name": "Portugal",
+            "dailyDeaths": 0,
+            "totalDeaths": 25584,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2523
+        },
+        {
+            "name": "Greece",
+            "dailyDeaths": 0,
+            "totalDeaths": 34482,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3342
+        },
+        {
+            "name": "Ukraine",
+            "dailyDeaths": 0,
+            "totalDeaths": 110640,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2562
+        },
+        {
+            "name": "Malaysia",
+            "dailyDeaths": 0,
+            "totalDeaths": 36748,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1107
+        },
+        {
+            "name": "Chile",
+            "dailyDeaths": 0,
+            "totalDeaths": 62683,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3256
+        },
+        {
+            "name": "DPRK",
+            "dailyDeaths": 0,
+            "totalDeaths": 74,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3
+        },
+        {
+            "name": "Israel",
+            "dailyDeaths": 0,
+            "totalDeaths": 11906,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1277
+        },
+        {
+            "name": "Thailand",
+            "dailyDeaths": 0,
+            "totalDeaths": 33285,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 475
+        },
+        {
+            "name": "Belgium",
+            "dailyDeaths": 0,
+            "totalDeaths": 33100,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2837
+        },
+        {
+            "name": "Czechia",
+            "dailyDeaths": 1,
+            "totalDeaths": 41952,
+            "dailyDeathsNorm": 0.09313024408848207,
+            "totalDeathsNorm": 3907
+        },
+        {
+            "name": "Canada",
+            "dailyDeaths": 0,
+            "totalDeaths": 48044,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1252
+        },
+        {
+            "name": "Peru",
+            "dailyDeaths": 0,
+            "totalDeaths": 217604,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 6460
+        },
+        {
+            "name": "Switzerland",
+            "dailyDeaths": 0,
+            "totalDeaths": 14343,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1635
+        },
+        {
+            "name": "Philippines",
+            "dailyDeaths": 0,
+            "totalDeaths": 64845,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 576
+        },
+        {
+            "name": "South Africa",
+            "dailyDeaths": 0,
+            "totalDeaths": 102550,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1688
+        },
+        {
+            "name": "Romania",
+            "dailyDeaths": 0,
+            "totalDeaths": 67289,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3536
+        },
+        {
+            "name": "Denmark",
+            "dailyDeaths": 0,
+            "totalDeaths": 7579,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1299
+        },
+        {
+            "name": "Sweden",
+            "dailyDeaths": 0,
+            "totalDeaths": 21202,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2075
+        },
+        {
+            "name": "Iraq",
+            "dailyDeaths": 0,
+            "totalDeaths": 25366,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 602
+        },
+        {
+            "name": "Serbia",
+            "dailyDeaths": 0,
+            "totalDeaths": 17429,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2014
+        },
+        {
+            "name": "Hong Kong",
+            "dailyDeaths": 0,
+            "totalDeaths": 10914,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1435
+        },
+        {
+            "name": "Singapore",
+            "dailyDeaths": 0,
+            "totalDeaths": 1707,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 287
+        },
+        {
+            "name": "Hungary",
+            "dailyDeaths": 0,
+            "totalDeaths": 48337,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 5032
+        },
+        {
+            "name": "Bangladesh",
+            "dailyDeaths": 0,
+            "totalDeaths": 29436,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 175
+        },
+        {
+            "name": "New Zealand",
+            "dailyDeaths": 0,
+            "totalDeaths": 3337,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 681
+        },
+        {
+            "name": "Slovakia",
+            "dailyDeaths": 0,
+            "totalDeaths": 20752,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3801
+        },
+        {
+            "name": "Georgia",
+            "dailyDeaths": 0,
+            "totalDeaths": 16888,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 4255
+        },
+        {
+            "name": "Jordan",
+            "dailyDeaths": 0,
+            "totalDeaths": 14122,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1371
+        },
+        {
+            "name": "Ireland",
+            "dailyDeaths": 0,
+            "totalDeaths": 8159,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1625
+        },
+        {
+            "name": "Pakistan",
+            "dailyDeaths": 0,
+            "totalDeaths": 30635,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 133
+        },
+        {
+            "name": "Norway",
+            "dailyDeaths": 0,
+            "totalDeaths": 4498,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 816
+        },
+        {
+            "name": "Finland",
+            "dailyDeaths": 0,
+            "totalDeaths": 7572,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1363
+        },
+        {
+            "name": "Kazakhstan",
+            "dailyDeaths": 0,
+            "totalDeaths": 13693,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 713
+        },
+        {
+            "name": "Bulgaria",
+            "dailyDeaths": 0,
+            "totalDeaths": 38060,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 5561
+        },
+        {
+            "name": "Lithuania",
+            "dailyDeaths": 0,
+            "totalDeaths": 9442,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3547
+        },
+        {
+            "name": "Slovenia",
+            "dailyDeaths": 0,
+            "totalDeaths": 6946,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3343
+        },
+        {
+            "name": "Morocco",
+            "dailyDeaths": 0,
+            "totalDeaths": 16287,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 431
+        },
+        {
+            "name": "Croatia",
+            "dailyDeaths": 0,
+            "totalDeaths": 17389,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 4284
+        },
+        {
+            "name": "Lebanon",
+            "dailyDeaths": 0,
+            "totalDeaths": 10741,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1607
+        },
+        {
+            "name": "Guatemala",
+            "dailyDeaths": 0,
+            "totalDeaths": 19961,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1074
+        },
+        {
+            "name": "Costa Rica",
+            "dailyDeaths": 0,
+            "totalDeaths": 9046,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1746
+        },
+        {
+            "name": "Tunisia",
+            "dailyDeaths": 0,
+            "totalDeaths": 29269,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2430
+        },
+        {
+            "name": "Bolivia",
+            "dailyDeaths": 0,
+            "totalDeaths": 22253,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1856
+        },
+        {
+            "name": "Cuba",
+            "dailyDeaths": 0,
+            "totalDeaths": 8530,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 754
+        },
+        {
+            "name": "UAE",
+            "dailyDeaths": 0,
+            "totalDeaths": 2348,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 233
+        },
+        {
+            "name": "Ecuador",
+            "dailyDeaths": 0,
+            "totalDeaths": 35940,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1984
+        },
+        {
+            "name": "Panama",
+            "dailyDeaths": 0,
+            "totalDeaths": 8533,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1919
+        },
+        {
+            "name": "Nepal",
+            "dailyDeaths": 0,
+            "totalDeaths": 12019,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 398
+        },
+        {
+            "name": "Uruguay",
+            "dailyDeaths": 0,
+            "totalDeaths": 7541,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2157
+        },
+        {
+            "name": "Belarus",
+            "dailyDeaths": 0,
+            "totalDeaths": 7118,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 755
+        },
+        {
+            "name": "Mongolia",
+            "dailyDeaths": 0,
+            "totalDeaths": 2179,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 645
+        },
+        {
+            "name": "Latvia",
+            "dailyDeaths": 0,
+            "totalDeaths": 6108,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 3304
+        },
+        {
+            "name": "Saudi Arabia",
+            "dailyDeaths": 0,
+            "totalDeaths": 9481,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 265
+        },
+        {
+            "name": "Azerbaijan",
+            "dailyDeaths": 0,
+            "totalDeaths": 9984,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 969
+        },
+        {
+            "name": "Paraguay",
+            "dailyDeaths": 0,
+            "totalDeaths": 19646,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2689
+        },
+        {
+            "name": "Bahrain",
+            "dailyDeaths": 0,
+            "totalDeaths": 1536,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 861
+        },
+        {
+            "name": "Sri Lanka",
+            "dailyDeaths": 0,
+            "totalDeaths": 16808,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 779
+        },
+        {
+            "name": "Kuwait",
+            "dailyDeaths": 0,
+            "totalDeaths": 2570,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 587
+        },
+        {
+            "name": "Dominican Republic",
+            "dailyDeaths": 0,
+            "totalDeaths": 4384,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 397
+        },
+        {
+            "name": "Myanmar",
+            "dailyDeaths": 0,
+            "totalDeaths": 19488,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 353
+        },
+        {
+            "name": "Cyprus",
+            "dailyDeaths": 0,
+            "totalDeaths": 1242,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1015
+        },
+        {
+            "name": "Palestine",
+            "dailyDeaths": 0,
+            "totalDeaths": 5404,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1011
+        },
+        {
+            "name": "Estonia",
+            "dailyDeaths": 0,
+            "totalDeaths": 2799,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2117
+        },
+        {
+            "name": "Moldova",
+            "dailyDeaths": 0,
+            "totalDeaths": 11920,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2970
+        },
+        {
+            "name": "Venezuela",
+            "dailyDeaths": 0,
+            "totalDeaths": 5829,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 199
+        },
+        {
+            "name": "Egypt",
+            "dailyDeaths": 0,
+            "totalDeaths": 24613,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 232
+        },
+        {
+            "name": "Libya",
+            "dailyDeaths": 0,
+            "totalDeaths": 6437,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 914
+        },
+        {
+            "name": "Ethiopia",
+            "dailyDeaths": 0,
+            "totalDeaths": 7572,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 63
+        },
+        {
+            "name": "Qatar",
+            "dailyDeaths": 0,
+            "totalDeaths": 685,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 230
+        },
+        {
+            "name": "R\u00e9union",
+            "dailyDeaths": 0,
+            "totalDeaths": 905,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 997
+        },
+        {
+            "name": "Honduras",
+            "dailyDeaths": 0,
+            "totalDeaths": 11051,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1081
+        },
+        {
+            "name": "Armenia",
+            "dailyDeaths": 0,
+            "totalDeaths": 8712,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 2931
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "dailyDeaths": 0,
+            "totalDeaths": 16212,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 4989
+        },
+        {
+            "name": "Oman",
+            "dailyDeaths": 0,
+            "totalDeaths": 4260,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 800
+        },
+        {
+            "name": "North Macedonia",
+            "dailyDeaths": 0,
+            "totalDeaths": 9591,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 4608
+        },
+        {
+            "name": "Kenya",
+            "dailyDeaths": 0,
+            "totalDeaths": 5684,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 101
+        },
+        {
+            "name": "Zambia",
+            "dailyDeaths": 0,
+            "totalDeaths": 4019,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 206
+        },
+        {
+            "name": "Albania",
+            "dailyDeaths": 0,
+            "totalDeaths": 3593,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1254
+        },
+        {
+            "name": "Botswana",
+            "dailyDeaths": 0,
+            "totalDeaths": 2793,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1144
+        },
+        {
+            "name": "Luxembourg",
+            "dailyDeaths": 0,
+            "totalDeaths": 1133,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 1764
+        },
+        {
+            "name": "Montenegro",
+            "dailyDeaths": 0,
+            "totalDeaths": 2790,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 4443
+        },
+        {
+            "name": "Algeria",
+            "dailyDeaths": 0,
+            "totalDeaths": 6881,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 152
+        },
+        {
+            "name": "Nigeria",
+            "dailyDeaths": 0,
+            "totalDeaths": 3155,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 15
+        },
+        {
+            "name": "Brunei ",
+            "dailyDeaths": 0,
+            "totalDeaths": 225,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 505
+        },
+        {
+            "name": "Zimbabwe",
+            "dailyDeaths": 0,
+            "totalDeaths": 5622,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 367
+        },
+        {
+            "name": "Uzbekistan",
+            "dailyDeaths": 0,
+            "totalDeaths": 1637,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 48
+        },
+        {
+            "name": "Mozambique",
+            "dailyDeaths": 0,
+            "totalDeaths": 2226,
+            "dailyDeathsNorm": 0.0,
+            "totalDeathsNorm": 67
+        }
+    ]
+}
